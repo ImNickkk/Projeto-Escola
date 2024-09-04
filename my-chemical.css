@@ -1,0 +1,206 @@
+/* Configuração geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Cor de fundo suave */
+    color: #333; /* Cor do texto padrão */
+}
+
+.container {
+    max-width: 1200px; /* Largura maior para um layout mais espaçoso */
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Cor de fundo branca para o container */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+
+header {
+    background-color: #533D8B; /* Roxo mais suave */
+    color: #ffffff; /* Cor do texto branca */
+    padding: 20px 0;
+    border-radius: 0 0 12px 12px; /* Bordas arredondadas na parte inferior */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffffff; /* Cor do título */
+    margin: 0;
+    font-weight: 700; /* Negrito */
+    text-align: center; /* Centralizar o título */
+}
+
+.music-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.album-art {
+    margin-bottom: 20px;
+}
+
+.album-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    border: 1px solid #ddd; /* Borda leve */
+}
+
+.song-title {
+    font-size: 2em;
+    color: #8e24aa; /* Roxo suave */
+    margin: 0;
+    font-weight: 700; /* Negrito */
+}
+
+.artist-name {
+    font-size: 1.2em;
+    color: #666; /* Cinza suave */
+    margin: 10px 0;
+}
+
+.lyrics {
+    border-top: 1px solid #ddd; /* Borda superior leve */
+    padding-top: 20px;
+}
+
+.lyrics h3 {
+    font-size: 1.6em;
+    color: #5c6bc0; /* Azul suave */
+    margin-bottom: 15px;
+    font-weight: 700; /* Negrito */
+}
+
+.translation-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #533D8B; /* Roxo mais suave */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas sutis */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.translation-button:hover {
+    background-color: #533D8B; /* Roxo mais escuro */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+pre {
+    white-space: pre-wrap; /* Mantém a formatação da letra */
+    font-size: 1em; /* Texto no tamanho padrão */
+    line-height: 1.6; /* Espaçamento confortável entre linhas */
+    color: #333; /* Cor do texto */
+    border: 1px solid #ddd; /* Borda leve */
+    padding: 15px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo leve */
+    border-radius: 8px; /* Bordas arredondadas sutis */
+    overflow: auto; /* Adiciona uma barra de rolagem se necessário */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo dos botões e links */
+a {
+    color: #5c6bc0; /* Azul suave para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando os itens da lista de letras */
+.event_box .events_item {
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    overflow: hidden;
+    background-color: #ffffff; /* Cor de fundo branca */
+    margin-bottom: 20px;
+}
+
+.event_box .events_item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 4px solid #533D8B; /* Linha roxa embaixo da imagem */
+}
+
+.down-content {
+    padding: 15px;
+}
+
+.down-content h4 {
+    color: #8e24aa; /* Roxo suave */
+    font-weight: 700; /* Negrito */
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%; /* Imagem redonda */
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    object-fit: cover; /* Ajuste da imagem */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+
+.team-member h4 {
+    color: #6a1b9a; /* Roxo mais suave */
+    font-weight: 700; /* Negrito */
+}
+
+/* Rodapé */
+footer {
+    background-color: #6a1b9a; /* Roxo mais suave */
+    color: #ffffff; /* Cor do texto branca */
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px 12px 0 0; /* Bordas arredondadas na parte superior */
+}
+
+.social-media i {
+    color: #ffffff; /* Cor dos ícones sociais */
+    margin: 0 10px;
+    font-size: 1.5em; /* Tamanho dos ícones */
+}
+
+/* Importando a fonte Google Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Estilo do conteúdo das letras da música */
+.lyrics-content {
+    background-color: #fff; /* Fundo branco para destacar o texto */
+    border-radius: 12px; /* Bordas arredondadas mais suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    border: 1px solid #ddd; /* Borda leve */
+    color: #333; /* Cor do texto */
+    font-family: 'Poppins', sans-serif; /* Fonte arredondada e moderna */
+}
+
+/* Estilo específico para o texto dentro de <pre> */
+.lyrics-content pre {
+    font-family: 'Poppins', sans-serif; /* Fonte arredondada e moderna */
+    font-size: 1.1em; /* Tamanho da fonte ajustado */
+    margin: 0; /* Remove margem padrão */
+    white-space: pre-wrap; /* Mantém a formatação do texto */
+    overflow-wrap: break-word; /* Quebra de palavras longas para evitar overflow */
+}
+
+/* Estilizando cada linha da letra */
+.lyrics-content p {
+    margin: 0 0 10px; /* Margem entre linhas */
+    font-size: 1.1em; /* Tamanho da fonte ajustado */
+    color: #555; /* Cor do texto das linhas */
+    line-height: 1.8; /* Espaçamento entre linhas */
+}
